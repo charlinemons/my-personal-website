@@ -1,0 +1,56 @@
+.Intro.row {
+  align-items: center;
+  padding: 160px 0 100px 0;
+  justify-content: space-between;
+}
+
+section#about-me {
+  .row {
+    justify-content: flex-end;
+    gap: 5%;
+  }
+  h2 {
+    text-align: right;
+  }
+}
+
+section#experience {
+  ul {
+    padding-left: 0 !important;
+  }
+  li {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    padding: 0px !important;
+  }
+
+  span.date {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    font-family: kanit;
+  }
+  .tool {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    span {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 1px solid rgb(18, 18, 18);
+      border-radius: 20px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      white-space: nowrap;
+      &:hover {
+        cursor: pointer;
+        background-color: var(--orange);
+        border: 1px solid var(--orange);
+        color: white;
+      }
+    }
+    p {
+      color: rgb(85, 85, 85) !important;
+    }
+  }
+}

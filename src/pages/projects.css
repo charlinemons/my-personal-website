@@ -1,0 +1,46 @@
+section#projects {
+  .title-projects {
+    border-top: 1px solid black;
+  }
+  .projects {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 2rem;
+      padding-left: 0rem;
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1.5rem;
+        border: 1px solid var(--opacity);
+        img {
+          padding-bottom: 2rem;
+          filter: grayscale();
+          &:hover {
+            filter: none;
+          }
+        }
+      }
+      span {
+        font-size: 13px;
+      }
+    }
+  }
+  .projects-intro {
+    p {
+      text-align: center;
+    }
+    h2 {
+      text-align: center !important;
+      font-size: 3rem !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projects ul {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
