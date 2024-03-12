@@ -29,11 +29,12 @@ body {
   font-family: "Kanit", sans-serif !important;
   font-weight: 300 !important;
   font-style: normal;
-  background-image: url("assets/images/background.jpg");
+  /* background-image: url("assets/images/background.jpg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto;
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  background-color: #f9f8f7;
   height: 100%;
   position: relative;
   /* &:before {
