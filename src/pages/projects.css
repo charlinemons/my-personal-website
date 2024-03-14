@@ -38,6 +38,29 @@ section#projects {
   }
 }
 
+.project-tag {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+  span {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    &:hover {
+      cursor: pointer;
+      background-color: var(--orange);
+      border: 1px solid var(--orange);
+      color: white;
+    }
+  }
+  p {
+    color: rgb(85, 85, 85) !important;
+  }
+}
 @media only screen and (max-width: 600px) {
   .projects ul {
     display: flex !important;

@@ -1,10 +1,11 @@
 import React from "react";
 import "../pages/projects.css";
 
+import PsychoBunny from "../assets/images/psycho-bunny.jpg";
 import WorldClock from "../assets/images/world-clock.png";
 import AiAnime from "../assets/images/ai-anime.png";
 import Dictionary from "../assets/images/dictionary.png";
-import ColdWeatherApp from "../assets/images/cold-weather-app.png";
+import ColdWeatherApp from "../assets/images/weather-app.png";
 import District23 from "../assets/images/district23.png";
 import HabitationsHautNiveau from "../assets/images/habitationshautniveau.png";
 import Manivelle from "../assets/images/manivelle-tv.png";
@@ -32,6 +33,26 @@ const Projects = () => {
             <li className="p-4 lg:p-6 border">
               <div className="project-details">
                 <a
+                  href="https://www.psychobunny.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={PsychoBunny} alt="Psycho Bunny" width="100%" />
+                </a>
+                <h3>Psycho Bunny</h3>
+                <p>Integration of promotional banners on Shopify</p>
+              </div>
+              <div className="project-tag">
+                <span>Shopify</span>
+                <span>Liquid</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </li>
+
+            <li className="p-4 lg:p-6 border">
+              <div className="project-details">
+                <a
                   href="https://district23.ca/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -50,17 +71,16 @@ const Projects = () => {
                   efficient online presence.
                 </p>
               </div>
-              {/* <div className="project-tag">
-                <span>#</span>
-                  <span>Wordpress</span>
-                  <span>Elementor</span>
-                  <span>JavaScript</span>
-                  <span>PHP</span>
-                  <span>CSS</span>
-                  <span>ACF</span>
-                  <span>CPT</span>
-                  <span>WPML</span>
-              </div> */}
+              <div className="project-tag">
+                <span>Wordpress</span>
+                <span>Elementor</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+                <span>CSS</span>
+                <span>ACF</span>
+                <span>CPT</span>
+                <span>WPML</span>
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -87,14 +107,13 @@ const Projects = () => {
                   available housing options.
                 </p>
               </div>
-              {/* <div class="project-tag">
-                  <span>#</span>
-                  <span>Wordpress</span>
-                  <span>CSS</span>
-                  <span>JavaScript</span>
-                  <span>ACF</span>
-                  <span>CPT</span>
-              </div> */}
+              <div class="project-tag">
+                <span>Wordpress</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>ACF</span>
+                <span>CPT</span>
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -119,15 +138,14 @@ const Projects = () => {
                   achievements in the field of housing.
                 </p>
               </div>
-              {/* <div class="project-tag">
-                    <span>#</span>
-                    <span>Wordpress</span>
-                    <span>PHP</span>
-                    <span>JavaScript</span>
-                    <span>ACF</span>
-                    <span>CPT</span>
-                    <span>Figma</span>
-              </div> */}
+              <div class="project-tag">
+                <span>Wordpress</span>
+                <span>PHP</span>
+                <span>JavaScript</span>
+                <span>ACF</span>
+                <span>CPT</span>
+                <span>Figma</span>
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -153,16 +171,15 @@ const Projects = () => {
                   them informed about upcoming events.
                 </p>
               </div>
-              {/* <div class="project-tag">
-                  <span>#</span>
-                  <span>Figma</span>
-                  <span>Wordpress</span>
-                  <span>JavaScript</span>
-                  <span>CSS</span>
-                  <span>ACF</span>
-                  <span>CPT</span>
-                  <span>WPML</span>
-              </div> */}
+              <div class="project-tag">
+                <span>Figma</span>
+                <span>Wordpress</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+                <span>ACF</span>
+                <span>CPT</span>
+                <span>WPML</span>
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -187,12 +204,11 @@ const Projects = () => {
                   envisioned design while ensuring smooth navigation.{" "}
                 </p>
               </div>
-              {/* <div class="project-tag">
-                    <span>#</span>
-                    <span>Wordpress</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-              </div> */}
+              <div class="project-tag">
+                <span>Wordpress</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
             </li>
             <li class="p-4 lg:p-6 border">
               <div class="project-details">
@@ -218,12 +234,11 @@ const Projects = () => {
                   client.
                 </p>
               </div>
-              {/* <div class="project-tag">
-                  <span>#</span>
-                  <span>Wordpress</span>
-                  <span>CSS</span>
-                  <span>JavaScript</span>
-                </div> */}
+              <div class="project-tag">
+                <span>Wordpress</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -251,17 +266,16 @@ const Projects = () => {
                   efficient content management by the client.
                 </p>
               </div>
-              {/* <div class="project-tag">
-                  <span>#</span>
-                  <span>Figma</span>
-                  <span>Wordpress</span>
-                  <span>Elementor</span>
-                  <span>CSS</span>
-                  <span>JavaScript</span>
-                  <span>CPT</span>
-                  <span>ACF</span>
-                  <span>PHP</span>
-                </div> */}
+              <div class="project-tag">
+                <span>Figma</span>
+                <span>Wordpress</span>
+                <span>Elementor</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>CPT</span>
+                <span>ACF</span>
+                <span>PHP</span>
+              </div>
             </li>
           </ul>
         </div>
@@ -291,8 +305,7 @@ const Projects = () => {
                   around the globe.
                 </p>
               </div>
-              {/* <div className="project-tag">
-                <span>#</span>
+              <div className="project-tag">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
@@ -300,7 +313,7 @@ const Projects = () => {
                 <span>API</span>
                 <span>GitHub</span>
                 <span>Hosting</span>
-              </div> */}
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -319,8 +332,7 @@ const Projects = () => {
                 <h3>Fact generator</h3>
                 <p>Build a text-generating tool powered by AI.</p>
               </div>
-              {/* <div class="project-tag">
-                <span>#</span>
+              <div class="project-tag">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
@@ -329,7 +341,7 @@ const Projects = () => {
                 <span>Hosting</span>
                 <span>API</span>
                 <span>AI</span>
-              </div> */}
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -348,8 +360,7 @@ const Projects = () => {
                 <h3>Dictionary</h3>
                 <p>Building an online dictionary using AI.</p>
               </div>
-              {/* <div class="project-tag">
-                <span>#</span>
+              <div class="project-tag">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
@@ -359,7 +370,7 @@ const Projects = () => {
                 <span>Boostrap</span>
                 <span>Hosting</span>
                 <span>React.js</span>
-              </div> */}
+              </div>
             </li>
 
             <li class="p-4 lg:p-6 border">
@@ -382,8 +393,7 @@ const Projects = () => {
                   well as their current location.
                 </p>
               </div>
-              {/* <div class="project-tag">
-                <span>#</span>
+              <div class="project-tag">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
@@ -392,7 +402,7 @@ const Projects = () => {
                 <span>Boostrap</span>
                 <span>Hosting</span>
                 <span>React.js</span>
-              </div> */}
+              </div>
             </li>
           </ul>
         </div>
