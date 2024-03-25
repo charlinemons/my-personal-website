@@ -12,7 +12,7 @@ const Home = () => {
           <div className="col-md-6">
             <h1>Front-end developer</h1>
             <p>
-              Hello, I'm Charline,<br></br>an independent web developer based in
+              Hello I'm Charline,<br></br>an independent web developer based in
               chilly Montreal.<br></br>I specialize in Front-end development and
               WordPress.
             </p>
