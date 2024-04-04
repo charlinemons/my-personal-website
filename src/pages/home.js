@@ -134,7 +134,7 @@ const Home = () => {
                         / WordPress Developer and Web Integrator
                       </h4>
                     </div>
-                    <span className="date">November 2023 - Present</span>
+                    <span className="date">October 2020 - February 2023</span>
                     <div className="tool">
                       <span>HTML</span>
                       <span>CSS</span>
